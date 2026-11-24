@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-09-23T02:53:35.041Z",
+  "pairs": {
+    "Aatrox|Ahri": "tie",
+    "Aatrox|Akali": "tie",
+    "Aatrox|Akshan": {
+      "winner": "Aatrox",
+      "winnerWinPct": 65
+    },
+    "Aatrox|Ambessa": "tie",
+    "Aatrox|Anivia": {
+      "winner": "Aatrox",
+      "winnerWinPct": 65
+    },
+    "Aatrox|Annie": "tie",
+    "Aatrox|Aphelios": {
+      "winner": "Aatrox",
+      "winnerWinPct": 65
+    },
+    "Aatrox|Ashe": {
+      "winner": "Aatrox",
+      "winnerWinPct": 65
+    },
+    "Aatrox|AurelionSol": {
+      "winner": "Aatrox",
+      "winnerWinPct": 65
+    },
+    "Aatrox|Aurora": "tie",
+    "Aatrox|Fiora": {
+      "winner": "Aatrox",
+      "winnerWinPct": 65
+    },
+    "Aatrox|Zed": {
+      "winner": "Zed",
+      "winnerWinPct": 65
+    },
+    "Ahri|Zed": {
+      "winner": "Ahri",
+      "winnerWinPct": 65
+    },
+    "Akali|Chogath": {
+      "winner": "Chogath",
+      "winnerWinPct": 65
+    },
+    "Ambessa|KSante": {
+      "winner": "KSante",
+      "winnerWinPct": 65
+    },
+    "Ambessa|Sion": {
+      "winner": "Ambessa",
+      "winnerWinPct": 65
+    },
+    "Aurora|Leblanc": "tie",
+    "Azir|Neeko": {
+      "winner": "Azir",
+      "winnerWinPct": 65
+    },
+    "Chogath|Sett": "tie",
+    "Darius|KSante": {
+      "winner": "KSante",
+      "winnerWinPct": 65
+    },
+    "Darius|MasterYi": {
+      "winner": "MasterYi",
+      "winnerWinPct": 65
+    },
+    "Darius|Sett": "tie",
+    "Fiora|Gwen": "tie",
+    "Gangplank|Olaf": {
+      "winner": "Olaf",
+      "winnerWinPct": 65
+    },
+    "Garen|Kayn": {
+      "winner": "Kayn",
+      "winnerWinPct": 65
+    },
+    "Gwen|Riven": {
+      "winner": "Riven",
+      "winnerWinPct": 65
+    },
+    "Gwen|MonkeyKing": {
+      "winner": "Gwen",
+      "winnerWinPct": 65
+    },
+    "Illaoi|Riven": {
+      "winner": "Illaoi",
+      "winnerWinPct": 65
+    },
+    "Kayn|Vayne": {
+      "winner": "Kayn",
+      "winnerWinPct": 65
+    },
+    "Leblanc|Sylas": {
+      "winner": "Leblanc",
+      "winnerWinPct": 65
+    },
+    "Locke|Sylas": {
+      "winner": "Locke",
+      "winnerWinPct": 65
+    },
+    "Mel|Zoe": "tie",
+    "Naafiri|Sylas": {
+      "winner": "Sylas",
+      "winnerWinPct": 65
+    },
+    "Nasus|Volibear": {
+      "winner": "Volibear",
+      "winnerWinPct": 65
+    },
+    "Riven|Sylas": "tie",
+    "Shen|Sion": {
+      "winner": "Shen",
+      "winnerWinPct": 65
+    },
+    "Vayne|Yasuo": {
+      "winner": "Yasuo",
+      "winnerWinPct": 65
+    },
+    "Zed|Zoe": {
+      "winner": "Zoe",
+      "winnerWinPct": 65
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+html {
+  scrollbar-gutter: stable;
+  overscroll-behavior: none;
+}
+
+:root {
+  --background: #0f172a;
+  --foreground: #e2e8f0;
+  --panel: #1e293b;
+  --ink-soft: #94a3b8;
+  --brand: #2dd4c4;
+  --brand-deep: #5eead4;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-panel: var(--panel);
+  --color-ink-soft: var(--ink-soft);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-space-grotesk), sans-serif;
+  background-image: radial-gradient(circle at 10% 10%, rgba(45,212,196,0.06) 0, transparent 35%),
+    radial-gradient(circle at 90% 0%, rgba(99,102,241,0.05) 0, transparent 28%);
+}

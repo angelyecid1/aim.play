@@ -1,0 +1,118 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String        @id @default(cuid())
+  firebaseUid  String        @unique
+  email        String        @unique
+  displayName  String
+  createdAt    DateTime      @default(now())
+  riotAccounts RiotAccount[]
+}
+
+model RiotAccount {
+  id           String             @id @default(cuid())
+  userId       String?
+  user         User?              @relation(fields: [userId], references: [id])
+  puuid        String             @unique
+  gameName     String
+  tagLine      String
+  region       String
+  platform     String
+  createdAt    DateTime           @default(now())
+  lastViewedAt DateTime           @default(now())
+  participants MatchParticipant[]
+
+  @@index([userId])
+}
+
+model Match {
+  id                      String             @id
+  gameCreation            DateTime
+  gameDuration            Int
+  queueId                 Int
+  patch                   String
+  // El detalle crudo se borra una vez que ya se le saco todo el jugo (ver
+  // ingest.ts) — el historial que muestra la pagina no depende de esto,
+  // solo se usaba para calcular las estadisticas y los duelos al momento
+  // de guardar la partida. Nulo = ya se proceso y no quedo "huerfano"
+  // ocupando espacio para siempre.
+  rawData                 String?
+  timelineData            String?
+  championDuelsProcessed  Boolean            @default(false)
+  createdAt               DateTime           @default(now())
+  participants            MatchParticipant[]
+  championDuels           ChampionDuel[]
+}
+
+model ChampionDuel {
+  id             String   @id @default(cuid())
+  matchId        String
+  match          Match    @relation(fields: [matchId], references: [id])
+  gameCreation   DateTime
+  timeBucket     Int
+  platform       String
+  position       String
+  killerChampion String
+  victimChampion String
+  killerMastery  Int
+  victimMastery  Int
+  createdAt      DateTime @default(now())
+
+  @@index([killerChampion, victimChampion, platform, position, gameCreation])
+}
+
+/**
+ * Copia local del top de cada liga de elite (Challenger/Grandmaster/Master)
+ * por region. Se refresca cada cierto tiempo en vez de pedirsela a Riot en
+ * cada visita, porque es el mismo dato para todos los visitantes.
+ */
+model LeaderboardEntry {
+  id           String   @id @default(cuid())
+  platform     String
+  tier         String
+  rank         Int
+  puuid        String
+  gameName     String
+  tagLine      String
+  leaguePoints Int
+  wins         Int
+  losses       Int
+  updatedAt    DateTime @updatedAt
+
+  @@unique([platform, tier, rank])
+  @@index([platform, tier])
+}
+
+model MatchParticipant {
+  id                          String      @id @default(cuid())
+  matchId                     String
+  match                       Match       @relation(fields: [matchId], references: [id])
+  riotAccountId               String
+  riotAccount                 RiotAccount @relation(fields: [riotAccountId], references: [id])
+  championName                String
+  win                         Boolean
+  kills                       Int
+  deaths                      Int
+  assists                     Int
+  goldEarned                  Int
+  totalDamageDealtToChampions Int
+  items                       String
+  roleBoundItem               Int?
+  teamPosition                String?
+  customStats                 String?
+
+  @@unique([matchId, riotAccountId])
+  @@index([riotAccountId])
+}

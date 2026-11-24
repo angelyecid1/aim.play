@@ -1,0 +1,3032 @@
+{
+  "generatedAt": "2026-09-23T02:53:35.040Z",
+  "champions": {
+    "Alistar": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Soporte"
+      ],
+      "synergies": [
+        "Malphite",
+        "MasterYi",
+        "Renekton"
+      ],
+      "providesAllySustain": false
+    },
+    "Ambessa": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Amumu": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Anivia": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Annie": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": true
+    },
+    "Ashe": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-versatile",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay un tanque enemigo o ninguno y se requiere de ser mas que nada asesinos o de utilidad, estos son mas versatiles porque aportan mas en el daño y utilidades a todo tipo de campeon",
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "AurelionSol": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true,
+        "pullCenter": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Bard": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "stasis": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Brand": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Braum": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Briar": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "fearFlee": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Caitlyn": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-flexible",
+      "sustainedOnHitCondition": "la idea es recomendar a estos por si hay un tanque o ninguno perfectos para buildearse como lo requiera la partida",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Camille": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Cassiopeia": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Ekko": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Elise": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Fiora": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Gnar": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Gragas": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Heimerdinger": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Hwei": {
+      "cc": {
+        "stun": true,
+        "fearFlee": true,
+        "slow": true,
+        "pullCenter": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Irelia": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Ivern": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": true
+    },
+    "Jax": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Jhin": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Jinx": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank-shielded",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y los aliados o el soporte te cura u otorga escudos para que puedas sobrevivir y hacer rapidamente daño",
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "KSante": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Karma": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Kennen": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Leblanc": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Leona": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Lillia": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Lissandra": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Lux": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Malzahar": {
+      "cc": {
+        "stun": true,
+        "silence": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Maokai": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Mel": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Morgana": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Jungla",
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Nami": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Nautilus": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Neeko": {
+      "cc": {
+        "stun": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Nunu": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Ornn": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Pantheon": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla",
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Poppy": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Pyke": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Qiyana": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Rell": {
+      "cc": {
+        "stun": true,
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Renata": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Renekton": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Rengar": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Riven": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Ryze": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Sejuani": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Senna": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "initiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Seraphine": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "providesHeal": true,
+      "roles": [
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Sett": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Singed": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Sion": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Skarner": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Sona": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Soraka": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "silence": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Swain": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Syndra": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "initiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "TahmKench": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Top",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Taliyah": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Taric": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Thresh": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "tank": true,
+      "providesShield": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Tristana": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank-shielded",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y los aliados o el soporte te cura u otorga escudos para que puedas sobrevivir y hacer rapidamente daño",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "TwistedFate": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Udyr": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "mixed",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Urgot": {
+      "cc": {
+        "stun": true,
+        "fearFlee": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Varus": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y del mismo modo que hayan tanques aliados que protejan o aguanten a estos",
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Vayne": {
+      "cc": {
+        "stun": true,
+        "knockback": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y del mismo modo que hayan tanques aliados que protejan o aguanten a estos",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Veigar": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Vi": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Viego": {
+      "cc": {
+        "stun": true,
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Viktor": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Volibear": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Warwick": {
+      "cc": {
+        "stun": true,
+        "fearFlee": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Xayah": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-versatile",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay un tanque enemigo o ninguno y se requiere de ser mas que nada asesinos o de utilidad, estos son mas versatiles porque aportan mas en el daño y utilidades a todo tipo de campeon",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Xerath": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Zilean": {
+      "cc": {
+        "stun": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Zoe": {
+      "cc": {
+        "stun": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Zyra": {
+      "cc": {
+        "stun": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Azir": {
+      "cc": {
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-flexible",
+      "sustainedOnHitCondition": "la idea es recomendar a estos por si hay un tanque o ninguno perfectos para buildearse como lo requiera la partida",
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Draven": {
+      "cc": {
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-versatile",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay un tanque enemigo o ninguno y se requiere de ser mas que nada asesinos o de utilidad, estos son mas versatiles porque aportan mas en el daño y utilidades a todo tipo de campeon",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Fizz": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Hecarim": {
+      "cc": {
+        "knockback": true,
+        "fearFlee": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Janna": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Jayce": {
+      "cc": {
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Kalista": {
+      "cc": {
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y del mismo modo que hayan tanques aliados que protejan o aguanten a estos",
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Kled": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "LeeSin": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Milio": {
+      "cc": {
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Quinn": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true,
+        "nearsight": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Rammus": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Trundle": {
+      "cc": {
+        "knockback": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Velkoz": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "XinZhao": {
+      "cc": {
+        "knockback": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Aatrox": {
+      "cc": {
+        "fearFlee": true,
+        "slow": true,
+        "knockupAirborne": true,
+        "pullCenter": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "synergies": [
+        "Malphite",
+        "MasterYi",
+        "Renekton"
+      ],
+      "providesAllySustain": false
+    },
+    "Fiddlesticks": {
+      "cc": {
+        "fearFlee": true,
+        "slow": true,
+        "silence": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Nocturne": {
+      "cc": {
+        "fearFlee": true,
+        "nearsight": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Shaco": {
+      "cc": {
+        "fearFlee": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Shyvana": {
+      "cc": {
+        "fearFlee": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "mixed",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Vex": {
+      "cc": {
+        "fearFlee": true,
+        "slow": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Lulu": {
+      "cc": {
+        "polymorph": true,
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Akali": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Aurora": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Belveth": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "initiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Chogath": {
+      "cc": {
+        "slow": true,
+        "silence": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Darius": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Diana": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "DrMundo": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Evelynn": {
+      "cc": {
+        "slow": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Gangplank": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Graves": {
+      "cc": {
+        "slow": true,
+        "nearsight": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Gwen": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Illaoi": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "JarvanIV": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Karthus": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Kassadin": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Kayle": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "counterInitiator": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "mixed",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Kayn": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Khazix": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Kindred": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "secondary-dps",
+      "sustainedOnHitCondition": "no es su especialidad, pero funcionan bien igual cuando el rival no tiene tanques, o cuando el propio equipo ya cuenta con otros aliados dedicados al daño sostenido (a distancia o cuerpo a cuerpo) que cubran ese rol principal",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "KogMaw": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y del mismo modo que hayan tanques aliados que protejan o aguanten a estos",
+      "ranged": true,
+      "damageType": "mixed",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Locke": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Malphite": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true,
+        "cripple": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "MissFortune": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-flexible",
+      "sustainedOnHitCondition": "la idea es recomendar a estos por si hay un tanque o ninguno perfectos para buildearse como lo requiera la partida",
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Naafiri": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Nasus": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Olaf": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Orianna": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true,
+        "pullCenter": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Rumble": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Shen": {
+      "cc": {
+        "slow": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": true
+    },
+    "Smolder": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "aoeDamage": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-flexible",
+      "sustainedOnHitCondition": "la idea es recomendar a estos por si hay un tanque o ninguno perfectos para buildearse como lo requiera la partida",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Sylas": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Talon": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Teemo": {
+      "cc": {
+        "slow": true,
+        "blind": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Tryndamere": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Twitch": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank-shielded",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y los aliados o el soporte te cura u otorga escudos para que puedas sobrevivir y hacer rapidamente daño",
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Vladimir": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "poke": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Yorick": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Yunara": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-versatile",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay un tanque enemigo o ninguno y se requiere de ser mas que nada asesinos o de utilidad, estos son mas versatiles porque aportan mas en el daño y utilidades a todo tipo de campeon",
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Yuumi": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "providesHeal": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "Zac": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Zed": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Zeri": {
+      "cc": {
+        "slow": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-versatile",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay un tanque enemigo o ninguno y se requiere de ser mas que nada asesinos o de utilidad, estos son mas versatiles porque aportan mas en el daño y utilidades a todo tipo de campeon",
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Ziggs": {
+      "cc": {
+        "slow": true,
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Blitzcrank": {
+      "cc": {
+        "silence": true,
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Garen": {
+      "cc": {
+        "silence": true
+      },
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "initiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top"
+      ],
+      "providesAllySustain": false
+    },
+    "Galio": {
+      "cc": {
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "tank": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "RekSai": {
+      "cc": {
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Rakan": {
+      "cc": {
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "providesShield": true,
+      "roles": [
+        "Soporte"
+      ],
+      "providesAllySustain": true
+    },
+    "MonkeyKing": {
+      "cc": {
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Yasuo": {
+      "cc": {
+        "knockupAirborne": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "initiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Yone": {
+      "cc": {
+        "knockupAirborne": true,
+        "pullCenter": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Zaahen": {
+      "cc": {
+        "knockupAirborne": true,
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Top",
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    },
+    "Ahri": {
+      "cc": {
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "poke": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "magic",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Mordekaiser": {
+      "cc": {
+        "pullAggressor": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "initiator": true,
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "magic",
+      "roles": [
+        "Top",
+        "Jungla",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Nilah": {
+      "cc": {
+        "pullCenter": true
+      },
+      "hasHardCc": true,
+      "hasAoeGroupingCc": true,
+      "aoeDamage": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Katarina": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "secondary-dps",
+      "sustainedOnHitCondition": "no es su especialidad, pero funcionan bien igual cuando el rival no tiene tanques, o cuando el propio equipo ya cuenta con otros aliados dedicados al daño sostenido (a distancia o cuerpo a cuerpo) que cubran ese rol principal",
+      "counterInitiator": true,
+      "melee": true,
+      "damageType": "mixed",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Samira": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "aoeDamage": true,
+      "counterInitiator": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Akshan": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Aphelios": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-versatile",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay un tanque enemigo o ninguno y se requiere de ser mas que nada asesinos o de utilidad, estos son mas versatiles porque aportan mas en el daño y utilidades a todo tipo de campeon",
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Corki": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "aoeDamage": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-versatile",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay un tanque enemigo o ninguno y se requiere de ser mas que nada asesinos o de utilidad, estos son mas versatiles porque aportan mas en el daño y utilidades a todo tipo de campeon",
+      "ranged": true,
+      "damageType": "mixed",
+      "roles": [
+        "ADC",
+        "Mid"
+      ],
+      "providesAllySustain": false
+    },
+    "Ezreal": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "secondary-dps",
+      "sustainedOnHitCondition": "no es su especialidad, pero funcionan bien igual cuando el rival no tiene tanques, o cuando el propio equipo ya cuenta con otros aliados dedicados al daño sostenido (a distancia o cuerpo a cuerpo) que cubran ese rol principal",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Kaisa": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-vs-tank-shielded",
+      "sustainedOnHitCondition": "la idea es recomendar estos por si hay uno o mas tanques enemigos y los aliados o el soporte te cura u otorga escudos para que puedas sobrevivir y hacer rapidamente daño",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Lucian": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-flexible",
+      "sustainedOnHitCondition": "la idea es recomendar a estos por si hay un tanque o ninguno perfectos para buildearse como lo requiera la partida",
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "Mid",
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "Nidalee": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "ranged": true,
+      "melee": true,
+      "damageType": "mixed",
+      "roles": [
+        "Jungla",
+        "Soporte"
+      ],
+      "providesAllySustain": false
+    },
+    "Sivir": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "poke": true,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "marksman-flexible",
+      "sustainedOnHitCondition": "la idea es recomendar a estos por si hay un tanque o ninguno perfectos para buildearse como lo requiera la partida",
+      "counterInitiator": true,
+      "ranged": true,
+      "damageType": "physical",
+      "roles": [
+        "ADC"
+      ],
+      "providesAllySustain": false
+    },
+    "MasterYi": {
+      "cc": {},
+      "hasHardCc": false,
+      "hasAoeGroupingCc": false,
+      "sustainedOnHit": true,
+      "sustainedOnHitTier": "melee-onhit",
+      "sustainedOnHitCondition": "la idea es recomendar estos campeones cuando el equipo enemigo tenga poco control de masas (aunque no sé si sabrias hacer ese cálculo)",
+      "melee": true,
+      "damageType": "physical",
+      "roles": [
+        "Jungla"
+      ],
+      "providesAllySustain": false
+    }
+  }
+}
